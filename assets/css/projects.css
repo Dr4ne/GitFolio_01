@@ -350,3 +350,69 @@ button
         background-color: yellow;
     }
 } */
+
+@media only screen and (orientation : portrait) 
+    {
+        .nav_wrapper
+        {
+
+            /* background-color: green; */
+            gap: 0;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: auto;
+            gap: 0;
+        }
+
+        #title-logo
+        {
+            font-size: 1.8em;
+        }
+
+        #nav_center_menu
+        {
+            font-size: 2.5em;
+        }
+
+        #navigation {
+            font-size: 1.8em;
+        }
+
+        .project-title
+        {
+            font-size: 2.2em;
+        }
+
+        #projects
+        {
+        margin-top: 22em;
+        gap: 2em;
+        }   
+    
+        iframe
+        {
+            margin-top: 1em;
+        }
+    
+        button 
+        {
+            height: 3em;
+            width: 100px;
+            border-radius: .5em;
+            letter-spacing: 1px;
+            margin-top: 1em;
+            margin-bottom: 2em;
+        }
+           
+           button span
+           {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.5s;
+            background: none;
+            font-size: 1.5em;
+           }
+    }
